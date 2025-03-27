@@ -7,3 +7,7 @@ public class Barbershop {
         System.out.println("Running static block");
     }
 }
+
+
+
+
