@@ -15,5 +15,8 @@ public class Jet {
     public String toString() {
         return "Jet model: " + this.model + ", speed: " + this.speed + " km/h, capacity: " + this.capacity + " passengers";
     }
-}
+    public int hashCode() {
+        return 36;
+    }
+    }
 

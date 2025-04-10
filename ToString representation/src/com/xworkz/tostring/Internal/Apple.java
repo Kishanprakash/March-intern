@@ -1,6 +1,6 @@
 package com.xworkz.tostring.Internal;
 
-public class Apple {
+public class  Apple {
     private String variety;
     private int weight;
     private int price;
@@ -14,5 +14,10 @@ public class Apple {
     @Override
     public String toString() {
         return "Apple variety: " +  this.variety + ", weight: " +  this.weight + "g, price: " +  this.price;
+    }
+
+    @Override
+    public int hashCode() {
+        return 2;
     }
 }

@@ -15,4 +15,9 @@ public class Belt {
     public String toString() {
         return "Belt material " + this.material + " size " + this.size + " price " + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 7;
+    }
 }

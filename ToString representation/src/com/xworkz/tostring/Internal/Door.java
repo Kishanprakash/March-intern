@@ -16,5 +16,8 @@ public class Door {
         return "Door material: " + material + ", height: " + height + "cm, price: " + price;
     }
 
-
+    @Override
+    public int hashCode() {
+        return 22;
+    }
 }

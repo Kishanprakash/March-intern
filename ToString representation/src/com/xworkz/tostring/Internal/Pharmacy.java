@@ -15,4 +15,7 @@ public class Pharmacy {
     public String toString() {
         return "Pharmacy name " + this.name + " location " + this.location + " rating " + this.rating;
     }
+    public int hashCode() {
+        return 59;
+    }
 }

@@ -15,4 +15,9 @@ public class Clock {
     public String toString() {
         return "Clock brand " + this.brand + " style " + this.style + " price " + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 18;
+    }
 }

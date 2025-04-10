@@ -15,4 +15,7 @@ public class Port {
     public String toString() {
         return "Port type: " + this.type + ", port number: " + this.number + ", speed: " + this.speed ;
     }
+    public int hashCode() {
+        return 61;
+    }
 }

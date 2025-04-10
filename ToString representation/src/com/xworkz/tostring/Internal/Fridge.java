@@ -15,5 +15,7 @@ public class Fridge {
     public String toString() {
         return "Fridge brand " + this.brand + " capacity " + this.capacity + " price " + this.price;
     }
-
-}
+    public int hashCode() {
+        return 27;
+    }
+    }

@@ -15,4 +15,8 @@ public class Towel {
     public String toString() {
         return "Towel material: " + material + ", color: " + color + ", length: " + length;
     }
+
+    public int hashCode() {
+        return 84;
+    }
 }

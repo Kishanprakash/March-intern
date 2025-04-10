@@ -15,4 +15,7 @@ public class Shoe {
     public String toString() {
         return "Shoe brand " + this.brand + " Shoe size " + this.size + " Shoe price " + this.price;
     }
+    public int hashCode() {
+        return 71;
+    }
 }

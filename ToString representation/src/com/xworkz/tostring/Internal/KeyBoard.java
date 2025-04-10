@@ -15,4 +15,7 @@ public class KeyBoard {
     public String toString() {
         return "Keyboard brand " + this.brand + " noofKeys " + this.noOfKeys + " price " + this.price ;
     }
-}
+    public int hashCode() {
+        return 36;
+    }
+    }

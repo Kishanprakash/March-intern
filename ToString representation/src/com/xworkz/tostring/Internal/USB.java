@@ -15,5 +15,7 @@ public class USB {
     public String toString() {
         return "Usb brand: " + brand + " storageCapacity: " + storageCapacity + " type: " + type;
     }
-
+    public int hashCode() {
+        return 90;
+    }
 }

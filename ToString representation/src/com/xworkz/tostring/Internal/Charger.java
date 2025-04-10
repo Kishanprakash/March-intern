@@ -16,5 +16,8 @@ public class Charger {
         return "Charger brand: " + brand + ", output power: " + outputPower + "W, price: " + price;
     }
 
-
+    @Override
+    public int hashCode() {
+        return 16;
+    }
 }

@@ -16,5 +16,7 @@ public class Umbrella {
         return "Umbrella color: " + color + ", length: " + length + "cm, price: " + price;
     }
 
-
+    public int hashCode() {
+        return 89;
+    }
 }

@@ -16,4 +16,7 @@ public class IronBox {
     public String toString() {
         return "IronBox brand " + this.brand + " wattage " + this.wattage + " price " + this.price;
     }
-}
+    public int hashCode() {
+        return 34;
+    }
+    }

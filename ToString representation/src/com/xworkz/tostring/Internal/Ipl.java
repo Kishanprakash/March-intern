@@ -15,4 +15,8 @@ public class Ipl {
     public String toString() {
         return "IPL Team: " + teamName + ", Captain: " + captain + ", Wins: " + wins;
     }
-}
+
+    public int hashCode() {
+        return 33;
+    }
+    }

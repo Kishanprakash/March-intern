@@ -17,4 +17,8 @@ public class Bottle {
         return "Bottle brand " + this.brand + " color " + this.color + " capacity " + this.capacity ;
     }
 
+    @Override
+    public int hashCode() {
+        return 10;
+    }
 }

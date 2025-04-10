@@ -15,4 +15,8 @@ public class TV {
     public String toString() {
         return "TV brand "+this.brand+" TV cost "+this.cost+" TV size "+this.size;
     }
+
+    public int hashCode() {
+        return 88;
+    }
 }

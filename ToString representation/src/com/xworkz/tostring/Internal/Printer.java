@@ -15,4 +15,8 @@ public class Printer {
     public String toString() {
         return "Printer brand: " + brand + ", colorPrint: " + colorPrint + ", PPM: " + pagesPerMinute;
     }
+
+    public int hashCode() {
+        return 63;
+    }
 }

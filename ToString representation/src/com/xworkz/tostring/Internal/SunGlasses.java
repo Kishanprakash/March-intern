@@ -15,4 +15,7 @@ public class SunGlasses {
     public String toString() {
         return "Sunglasses brand " + this.brand + " frame color " + this.frameColor + " price " + this.price;
     }
+    public int hashCode() {
+        return 79;
+    }
 }

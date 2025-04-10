@@ -15,4 +15,8 @@ public class Soap {
     public String toString() {
         return "Soap brand " + this.brand + " type " + this.type + " price " + this.price;
     }
+
+    public int hashCode() {
+        return 72;
+    }
 }

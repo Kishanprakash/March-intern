@@ -15,4 +15,9 @@ public class Camera {
     public String toString() {
         return "Camera brand: " + this. brand + ", megapixels: " +  this.megapixels + "MP, flash: " +  this.hasFlash;
     }
+
+    @Override
+    public int hashCode() {
+        return 13;
+    }
 }

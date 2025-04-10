@@ -15,4 +15,9 @@ public class Samosa {
     public String toString() {
         return "Samosa type "+this.type+" Samosa cost "+this.cost+" Samosa shape "+this.shape;
     }
+
+
+    public int hashCode() {
+        return 67;
+    }
 }

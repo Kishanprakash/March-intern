@@ -15,4 +15,7 @@ public class Park {
     public String toString() {
         return "Park name " + this.name + " location " + this.location + " area " + this.area + " mtrs";
     }
+    public int hashCode() {
+        return 55;
+    }
 }

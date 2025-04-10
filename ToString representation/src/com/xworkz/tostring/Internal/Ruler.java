@@ -16,5 +16,7 @@ public class Ruler {
         return "Ruler length: " + length + "cm, material: " + material + ", price: " + price;
     }
 
-
+    public int hashCode() {
+        return 66;
+    }
 }

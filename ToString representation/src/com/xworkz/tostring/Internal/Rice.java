@@ -15,6 +15,8 @@ public class Rice {
     public String toString() {
         return "Rice type: " + type + ", quantity: " + quantityInKg + "kg, price: " + price;
     }
-
+    public int hashCode() {
+        return 65;
+    }
 }
 

@@ -16,4 +16,8 @@ public class Candle {
         return "Candle scent: " + scent + ", weight: " + weight + "g, price: " + price;
     }
 
+    @Override
+    public int hashCode() {
+        return 14;
+    }
 }

@@ -15,4 +15,8 @@ public class Mug {
     public String toString() {
         return "Mug material: " + material + ", color: " + color + ", price: " + price;
     }
+
+    public int hashCode() {
+        return 50;
+    }
 }

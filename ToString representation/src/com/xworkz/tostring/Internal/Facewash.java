@@ -15,4 +15,9 @@ public class Facewash {
     public String toString() {
         return "Facewash brand: " + brand + ", volume: " + volume + "ml, price: " + price;
     }
+
+    @Override
+    public int hashCode() {
+        return 26;
+    }
 }

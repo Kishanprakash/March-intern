@@ -15,5 +15,7 @@ public class ToyCar {
     public String toString() {
         return "ToyCar color: " + color + ", brand: " + brand + ", price: " + price;
     }
-
+    public int hashCode() {
+        return 85;
+    }
 }

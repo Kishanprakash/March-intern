@@ -15,5 +15,7 @@ public class Tripod {
     public String toString() {
         return "Tripod material: " + material + ", max height: " + maxHeight + "cm, price: " + price;
     }
-
+    public int hashCode() {
+        return 86;
+    }
 }

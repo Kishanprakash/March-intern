@@ -15,4 +15,7 @@ public class LunchBox {
     public String toString() {
         return "LunchBox brand: " + brand + ", containers: " + containers + ", price: " + price;
     }
-}
+    public int hashCode() {
+        return 41;
+    }
+    }

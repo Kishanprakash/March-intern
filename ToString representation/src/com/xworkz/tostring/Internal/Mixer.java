@@ -15,5 +15,7 @@ public class Mixer {
     public String toString() {
         return "Mixer brand: " + brand + ", jars: " + jars + ", price: " + price;
     }
-
+    public int hashCode() {
+        return 46;
+    }
 }

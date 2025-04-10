@@ -1,6 +1,6 @@
 package com.xworkz.tostring.Internal;
 
-public class Bag {
+public class  Bag {
     private String brand;
     private String color;
     private int capacity;
@@ -14,5 +14,10 @@ public class Bag {
     @Override
     public String toString() {
         return "bag brand "+this.brand+" Bag color "+this.color+" Bag capacity "+this.capacity;
+    }
+
+    @Override
+    public int hashCode() {
+        return 4;
     }
 }

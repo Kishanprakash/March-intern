@@ -16,4 +16,8 @@ public class Browser {
         return "Browser name: " + this. name + ", version: " +  this.version + ", release year: " +  this.releaseYear;
     }
 
+    @Override
+    public int hashCode() {
+        return 11;
+    }
 }

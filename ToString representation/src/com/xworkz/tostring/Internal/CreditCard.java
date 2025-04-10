@@ -16,5 +16,8 @@ public class CreditCard {
         return "CreditCard bank: " + bankName + ", card number: " + cardNumber + ", credit limit: " + creditLimit;
     }
 
-
+    @Override
+    public int hashCode() {
+        return 20;
+    }
 }

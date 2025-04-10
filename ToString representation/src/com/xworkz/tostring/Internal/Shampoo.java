@@ -15,4 +15,7 @@ public class Shampoo {
     public String toString() {
         return "Shampoo brand: " + brand + ", volume: " + volume + "ml, fragrance: " + fragrance;
     }
+    public int hashCode() {
+        return 69;
+    }
 }

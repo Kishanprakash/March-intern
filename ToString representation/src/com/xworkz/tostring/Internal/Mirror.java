@@ -15,4 +15,8 @@ public class Mirror {
     public String toString() {
         return "Mirror shape: " + shape + ", height: " + height + "cm, price: " + price;
     }
+
+    public int hashCode() {
+        return 45;
+    }
 }

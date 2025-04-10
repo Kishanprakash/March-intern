@@ -15,4 +15,7 @@ public class Wallet {
     public String toString() {
         return "Wallet brand " + this.brand + " material " + this.material + " price " + this.price;
     }
+    public int hashCode() {
+        return 91;
+    }
 }

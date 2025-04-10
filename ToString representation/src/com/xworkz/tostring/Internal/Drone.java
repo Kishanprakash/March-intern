@@ -15,4 +15,10 @@ public class Drone {
     public String toString() {
         return "Drone brand " + this.brand + " cameraQuality " + this.cameraQuality + " price " + this.price;
     }
+
+
+    @Override
+    public int hashCode() {
+        return 24;
+    }
 }

@@ -15,4 +15,7 @@ public class PowerBank {
     public String toString() {
         return "PowerBank brand " + this.brand + " capacity " + this.capacity + " price " + this.price;
     }
+    public int hashCode() {
+        return 62;
+    }
 }

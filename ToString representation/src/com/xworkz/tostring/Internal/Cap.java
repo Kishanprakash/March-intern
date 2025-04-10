@@ -16,5 +16,8 @@ public class Cap {
         return "Cap color: " + color + ", brand: " + brand + ", price: " + price;
     }
 
-
+    @Override
+    public int hashCode() {
+        return 15;
+    }
 }

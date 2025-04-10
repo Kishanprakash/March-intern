@@ -15,4 +15,7 @@ public class PetrolPump {
     public String toString() {
         return "PetrolPump location " + this.location + " fuel type " + this.fuelType + " price per litre " + this.pricePerLitre;
     }
+    public int hashCode() {
+        return 58;
+    }
 }

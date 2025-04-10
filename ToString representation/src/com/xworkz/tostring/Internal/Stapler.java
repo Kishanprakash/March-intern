@@ -15,5 +15,7 @@ public class Stapler {
     public String toString() {
         return "Stapler brand: " + brand + ", pinsCapacity: " + pinsCapacity + ", price: " + price;
     }
-
+    public int hashCode() {
+        return 77;
+    }
 }

@@ -15,4 +15,8 @@ public class Socks {
     public String toString() {
         return "Socks brand " + this.brand + " color " + this.color + " price " + this.price;
     }
+
+    public int hashCode() {
+        return 73;
+    }
 }

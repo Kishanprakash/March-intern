@@ -13,4 +13,7 @@ public class Oven {
     public String toString() {
         return "Oven type " + this.type + " capacity " + this.capacity + " price " + this.price;
     }
+    public int hashCode() {
+        return 53;
+    }
 }

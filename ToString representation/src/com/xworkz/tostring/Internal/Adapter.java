@@ -1,6 +1,6 @@
 package com.xworkz.tostring.Internal;
 
-public class Adapter {
+public class  Adapter {
     private  String brand;
     private int wattage;
     private int price;
@@ -14,5 +14,10 @@ public class Adapter {
     @Override
     public String toString() {
         return "Adapter brand: " + this.brand + ", wattage: " + this.wattage + "W, price: " + this.price;
+    }
+
+    @Override
+    public int hashCode() {
+        return 44;
     }
 }

@@ -15,4 +15,8 @@ public class Scooter {
     public String toString() {
         return "Scooter brand " + this.brand + " model " + this.model + " price " + this.price;
     }
+
+    public int hashCode() {
+        return 68;
+    }
 }

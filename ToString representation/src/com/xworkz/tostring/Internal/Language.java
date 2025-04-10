@@ -15,4 +15,7 @@ public class Language {
     public String toString() {
         return "Language name "+this.name+" Language used "+this.areaUsed+" Language age "+this.age;
     }
-}
+    public int hashCode() {
+        return 38;
+    }
+    }

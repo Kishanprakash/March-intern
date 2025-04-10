@@ -15,4 +15,7 @@ public class Star {
     public String toString() {
         return "Star name: " +  this.name + ", temperature: " +  this.temperature + "K, distance  " +  this.distanceFromEarth + " light years";
     }
+    public int hashCode() {
+        return 78;
+    }
 }

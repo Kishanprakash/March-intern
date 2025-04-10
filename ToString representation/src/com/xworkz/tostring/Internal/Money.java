@@ -15,4 +15,7 @@ public class Money {
     public String toString() {
         return "Money currency " + this.currencyType + " country " + this.country + " amount " + this.amount;
     }
+    public int hashCode() {
+        return 48;
+    }
 }

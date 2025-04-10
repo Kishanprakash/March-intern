@@ -15,4 +15,8 @@ public class Helmet {
     public String toString() {
         return "Helmet brand: " + brand + ", size: " + size + ", color: " + color;
     }
-}
+
+    public int hashCode() {
+        return 30;
+    }
+    }

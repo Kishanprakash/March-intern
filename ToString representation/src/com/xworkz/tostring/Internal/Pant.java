@@ -15,4 +15,7 @@ public class Pant {
     public String toString() {
         return "Pant brand "+this.brand+" Pant cost "+this.cost+" Pant Color "+this.color;
     }
+    public int hashCode() {
+        return 54;
+    }
 }

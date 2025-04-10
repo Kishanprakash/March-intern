@@ -15,5 +15,7 @@ public class Ticket {
     public String toString() {
         return "Ticket event " + this.event + " date " + this.date + " price " + this.price;
     }
-
+    public int hashCode() {
+        return 81;
+    }
 }

@@ -1,6 +1,6 @@
 package com.xworkz.tostring.Internal;
 
-public class ATM {
+public class  ATM {
     private String bankName;
     private String location;
     private int atmId;
@@ -14,5 +14,10 @@ public class ATM {
     @Override
     public String toString() {
         return "ATM bank " + this.bankName + " location " + this.location + " ATM ID " + this.atmId;
+    }
+
+    @Override
+    public int hashCode() {
+        return 3;
     }
 }

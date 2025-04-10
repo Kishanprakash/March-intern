@@ -13,4 +13,7 @@ public class HeadPhone {
     public String toString() {
         return "Headphones brand " + this.brand + " type " + this.type + " price " + this.price;
     }
-}
+    public int hashCode() {
+        return 29;
+    }
+    }

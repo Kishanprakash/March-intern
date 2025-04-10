@@ -16,6 +16,10 @@ public class BMTC {
             return "BMTC city "+this.cityName+" BMTC route "+this.route+" Pant MinimumCost "+this.minimumCost;
         }
 
+    @Override
+    public int hashCode() {
+        return 8;
     }
+}
 
 

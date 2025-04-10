@@ -15,4 +15,8 @@ public class Lamp {
     public String toString() {
         return "Lamp type " + this.type + " color " + this.color + " price " + this.price;
     }
-}
+
+    public int hashCode() {
+        return 37;
+    }
+    }

@@ -15,5 +15,7 @@ public class Sofa {
     public String toString() {
         return "Sofa material: " + material + ", seats: " + seats + ", price: " + price;
     }
-
+    public int hashCode() {
+        return 74;
+    }
     }

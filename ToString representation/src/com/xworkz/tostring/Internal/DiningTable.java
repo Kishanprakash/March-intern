@@ -16,5 +16,8 @@ public class DiningTable {
         return "DiningTable shape: " + shape + ", seats: " + seats + ", price: " + price;
     }
 
-
+    @Override
+    public int hashCode() {
+        return 21;
+    }
 }

@@ -15,4 +15,7 @@ public class IceCream {
     public String toString() {
         return "Icecream brand "+this.brand+" IceCream cost "+this.cost+" Icecream flavour "+this.flavour;
     }
-}
+    public int hashCode() {
+        return 31;
+    }
+    }
