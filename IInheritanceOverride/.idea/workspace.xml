@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a2695e3-ee5f-4630-b45f-db3f8e7f747a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../practise/src/com/xworkz/type1/ArmyVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practise/src/com/xworkz/type1/MRFTyre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practise/src/com/xworkz/type1/Rubber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practise/src/com/xworkz/type1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practise/src/com/xworkz/type1/Tyre.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kishanprakash&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kishanprakash/March-intern.git&quot;,
+    &quot;accountId&quot;: &quot;8995d7d7-babf-4828-9a1c-7cf04ad437ed&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vPdbBKKV6Wf6g3VEqfadcBwVDh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/bni/CoreJava/Inheritance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java github\March-intern\IInheritanceOverride\src\com\xworkz" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a2695e3-ee5f-4630-b45f-db3f8e7f747a" name="Changes" comment="" />
+      <created>1744050727455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744050727455</updated>
+    </task>
+    <servers />
+  </component>
+</project>
