@@ -15,7 +15,7 @@ public class AlaramClock implements Clock {
 
     @Override
     public void tick() {
-        System.out.println("Ticking");
+        System.out.println ("Ticking");
     }
 
 }
